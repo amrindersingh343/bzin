@@ -29,6 +29,7 @@ export class ProviderComponent implements OnInit {
           })      
           console.log(this.newdatatype)
     this.dataSource = new MatTableDataSource(this.datadisplay) 
+    console.log("v"+this.newdatatype)
     
   }
   applyFilter(filterValue: string) {
